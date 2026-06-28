@@ -1,0 +1,57 @@
+{% extends 'base.html' %}
+
+{% block title %}
+Dashboard | AI Job Portal
+{% endblock %}
+
+{% block content %}
+
+<div class="login-container">
+
+    <div class="login-box">
+
+        <h1>👋 Welcome {{ full_name }}</h1>
+
+        <p><strong>Email:</strong> {{ email }}</p>
+
+        <div class="dashboard-card">
+
+            <h2>Total Applications</h2>
+
+            <h1>{{ total_applications }}</h1>
+
+        </div>
+
+        <div class="dashboard-card">
+
+            <h2>AI Recommendations</h2>
+
+            <h1>5</h1>
+
+        </div>
+
+        <div class="dashboard-buttons">
+
+            <a href="/jobs/">
+                <button>Browse Jobs</button>
+            </a>
+
+            <a href="/my-applications/">
+                <button>My Applications</button>
+            </a>
+
+            <a href="/recommendation/">
+                <button>AI Recommendation</button>
+            </a>
+
+            <a href="/logout/">
+                <button>Logout</button>
+            </a>
+
+        </div>
+
+    </div>
+
+</div>
+
+{% endblock %}

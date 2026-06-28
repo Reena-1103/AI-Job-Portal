@@ -1,0 +1,39 @@
+{% extends 'base.html' %}
+
+{% block title %}
+My Applications | AI Job Portal
+{% endblock %}
+
+{% block content %}
+
+<section class="jobs-section">
+
+    <h1>My Applications</h1>
+
+    <div class="job-container">
+
+        {% for application in applications %}
+
+        <div class="job-card">
+
+            <h3>{{ application.job_title }}</h3>
+
+            <p>🏢 {{ application.company }}</p>
+
+            <p>👤 {{ application.full_name }}</p>
+
+            <p>📧 {{ application.email }}</p>
+
+        </div>
+
+        {% empty %}
+
+        <h2>No Applications Found</h2>
+
+        {% endfor %}
+
+    </div>
+
+</section>
+
+{% endblock %}
