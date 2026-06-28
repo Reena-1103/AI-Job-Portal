@@ -136,35 +136,37 @@ http://127.0.0.1:8000/
 
 # 📸 Project Screenshots
 
-### 🏠 Home Page
+## 🏠 Home Page
 
-(Add Home Page Screenshot)
+![Home](screenshots/AI_Job_Portal_Screenshots/Home.png.png)
 
----
+## ✨ Features
 
-### 💼 Jobs Page
+![Features](screenshots/AI_Job_Portal_Screenshots/features.png.png)
 
-(Add Jobs Page Screenshot)
+## 💼 Available Jobs
 
----
+![Available Jobs](screenshots/AI_Job_Portal_Screenshots/available.png.png)
 
-### 📊 Dashboard
+## 📋 Jobs Page
 
-(Add Dashboard Screenshot)
+![Jobs](screenshots/AI_Job_Portal_Screenshots/jobs.png.png)
 
----
+## 📊 Dashboard
 
-### 🤖 AI Recommendation
+![Dashboard](screenshots/AI_Job_Portal_Screenshots/Dashboard.png.png)
 
-(Add Recommendation Screenshot)
+## 🔑 Login Page
 
----
+![Login](screenshots/AI_Job_Portal_Screenshots/login.png.png)
 
-### 🔐 Django Admin Panel
+## 📝 Register Page
 
-(Add Admin Screenshot)
+![Register](screenshots/AI_Job_Portal_Screenshots/register.png.png)
 
----
+## 🔐 Django Admin Panel
+
+![Admin](screenshots/AI_Job_Portal_Screenshots/admin.png.png)
 
 # 👨‍💼 Admin Module
 
